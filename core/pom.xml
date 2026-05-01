@@ -73,7 +73,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>3.4.2</version>
+                <version>3.5.0</version>
                 <configuration>
                     <archive>
                         <manifestEntries>
@@ -147,14 +147,14 @@
         <dependency>
             <groupId>net.md-5</groupId>
             <artifactId>bungeecord-config</artifactId>
-            <version>1.20-R0.2</version>
+            <version>1.21-R0.4</version>
         </dependency>
 
         <!-- This is optional in BungeeCord-config, so we include it here manually -->
         <dependency>
             <groupId>org.yaml</groupId>
             <artifactId>snakeyaml</artifactId>
-            <version>2.4</version>
+            <version>2.6</version>
         </dependency>
 
         <!--Floodgate for Xbox Live Authentication-->
